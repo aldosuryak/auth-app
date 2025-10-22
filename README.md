@@ -105,6 +105,16 @@ JWT_SECRET=your-jwt-secret-here-minimum-64-characters
 
 NODE_ENV=development
 
+## 📝 Scripts
+```bash
+# Development
+npm run dev          # Start dev server
+
+# Production
+npm run build        # Build for production
+npm run start        # Start production server
+```
+
 ## 👨‍💻 Author
 Aldo Surya Kusuma
 
