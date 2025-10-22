@@ -32,9 +32,14 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
         <img
-          src={"/company/javis-logo.png"}
+          src={"/company/javis-logo-dark.png"}
           alt="Logo Javis"
-          className="w-12 h-12"
+          className="hidden w-12 h-12 dark:block"
+        />
+        <img
+          src={"/company/javis-logo-light.png"}
+          alt="Logo Javis"
+          className="w-12 h-12 dark:hidden"
         />
       </SidebarHeader>
       <SidebarContent>
